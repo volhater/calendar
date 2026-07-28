@@ -7,7 +7,7 @@ from icalendar import Calendar, Event
 from dateutil import parser
 import zoneinfo  # Built-in in Python 3.9+
 
-URL = "https://www.wku.edu/registrar/academic_calendars/"
+URL = "https://www.wku.edu/hr/tools/holidays.php"
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 }
