@@ -112,7 +112,7 @@ def fetch_and_parse_holidays():
     os.makedirs(output_dir, exist_ok=True)
 
     # Save .ics file
-    ics_path = os.path.join(output_dir, "wku_academic_calendar.ics")
+    ics_path = os.path.join(output_dir, "wku_staff_holidays.ics")
     with open(ics_path, 'wb') as f:
         f.write(cal.to_ical())
 
