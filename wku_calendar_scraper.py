@@ -132,8 +132,8 @@ def fetch_and_parse_holidays():
     <h2>WKU Staff Holiday Calendar (.ics Feed)</h2>
     <p>Includes all staff holiday closures block-scheduled for business days (7:00 AM - 4:30 PM).</p>
     <p><strong>Subscription URL:</strong></p>
-    <p><code>https://{os.getenv("GITHUB_REPOSITORY_OWNER", "username")}.github.io/{os.getenv("GITHUB_REPOSITORY_NAME", "repo")}/wku_academic_calendar.ics</code></p>
-    <p><a class="btn" href="wku_academic_calendar.ics">Download .ics File</a></p>
+    <p><code>https://{os.getenv("GITHUB_REPOSITORY_OWNER", "username")}.github.io/{os.getenv("GITHUB_REPOSITORY_NAME", "repo")}/wku_staff_holidays.ics</code></p>
+    <p><a class="btn" href="wku_staff_holidays.ics">Download .ics File</a></p>
     <p><small>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M UTC')}</small></p>
 </body>
 </html>
